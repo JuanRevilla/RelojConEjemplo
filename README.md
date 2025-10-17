@@ -100,6 +100,8 @@ This function speeds up or slows down the system clock in order to make a gradua
 
 The delta argument specifies a relative adjustment to be made to the clock time. If negative, the system clock is slowed down for a while until it has lost this much elapsed time. If positive, the system clock is speeded up for a while.
 
+It also integrate the wifi funcionality of the esp wifi module.
+
 If the olddelta argument is not a null pointer, the adjtime function returns information about any previous time adjustment that has not yet completed.
 
 The return value is 0 on success and -1 on failure.
